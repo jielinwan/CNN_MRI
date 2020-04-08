@@ -27,8 +27,12 @@
     conv-128    
     max_pool  
     
-    dense-128    
-    dense-32    
-    dense-2
-
+    (dropout-0.75)
+    dense-128 
+    (dropout 0.75)   
+    dense-32   
+    (dropout 0.75) 
+    dense-2         
+    
+# 模型结果
 
