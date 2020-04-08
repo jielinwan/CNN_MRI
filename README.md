@@ -11,18 +11,24 @@
 
 ## 模型描述
 我使用的模型包括以下几个部分：
+
 卷积层 conv
 池化层 pool
 全连接层 dense
+
 具体结构如下：
+
     conv-32
     max_pool
-    conv-64
-    max_pool
-    conv-128
-    max_pool
-    dense-128
-    dense-32
+    
+    conv-64    
+    max_pool 
+    
+    conv-128    
+    max_pool  
+    
+    dense-128    
+    dense-32    
     dense-2
 
 
