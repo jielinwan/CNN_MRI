@@ -44,6 +44,8 @@
 此文件为源数据中的label集
 
 ## Result_32
-此文件夹中包含了main_32.py的运行结果，包括了在每一个epoch上的训练集和测试集上的精度变化图(Accuracy_VS_Epoch.png),每一个epoch上的训练集和测试集的精度(Run_Report.txt),每一个epoch上的loss变化图(TrainLoss_VS_Epoch.png),以及具体数据的.npy文件
+此文件夹中包含了main_32.py的运行结果，包括了在每一个epoch上的训练集和测试集上的精度变化图(Accuracy_VS_Epoch.png),每一个epoch上的训练集和测试集的精度(Run_Report.txt),每一个epoch上的loss变化图(TrainLoss_VS_Epoch.png),以及具体数据的.npy文件。
+
+在模型的结果上，最终训练集的精度趋向于1，测试集的精度在0.75左右。
 
 
