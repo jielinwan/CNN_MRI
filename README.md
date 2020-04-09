@@ -30,13 +30,14 @@
     conv-128    
     max_pool  
     
-    (dropout-0.75)
+    (dropout-0.85)
     dense-128 
-    (dropout 0.75)   
+    (dropout 0.85)   
     dense-32   
-    (dropout 0.75) 
+    (dropout 0.85) 
     dense-2         
     
+    模型的学习率为0.0003
 ## FileAddNoise.py
 此文件对源数据进行添加噪声和归一化。生成的文件为添加均值为0，方差为0 3 6 9 12的数据，并且已经进行了归一化。
 
